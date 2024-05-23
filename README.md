@@ -15,7 +15,7 @@ Automatically generates a structured outline with clearly labeled sections. Thes
 Incorporates additional insights, examples, and/or style guidelines provided through a supporting text file, enhancing the relevancy and depth of the generated content.
 
 ### Output Management
-Outputs the blog post section titles and copy into a CSV file and a text file.
+Outputs the blog post section titles, outline content, and blog content into a CSV file with three columns labaled Section Name, Outline Content, and Blog Content. Outputs the blog copy into a text file.
 
 ## Usage
 
@@ -25,4 +25,4 @@ To run the script:
 2. Set up your .env file with your OPENAI_API_KEY.
 3. Define the path to your supporting text file directly in the script or modify the script to accept it as a command-line argument.
 4. Execute the script and follow the on-screen prompts to input your blog post details.
-5. Open outputs blog_outline.csv and blog_post.txt.
+5. Open outputs **blog_outline.csv and blog_post.txt.**
