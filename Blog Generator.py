@@ -37,7 +37,7 @@ def generate_blog_post(supporting_text_path):
     topic = input("Please describe what you'd like to write about: ")
     subtopics_count = int(input("Enter the number of subtopics: "))
     words_per_section = int(input("Enter the desired word count per section: "))
-    blogger_identity = input("Tell me what you typically blog about, your point of voice, and your intended audience: ")
+    blogger_identity = input("Tell me what you typically blog about, your point of view, and your intended audience: ")
     writing_style = input("Enter your preferred writing style (formal, informal, conversational): ")
     word_choice = input("Enter any specific word choice preferences (e.g., use 'use' instead of 'utilize'): ")
     print(f"Generating an outline for the topic '{topic}' with {subtopics_count} subtopics, aiming for {words_per_section} words per section.")
